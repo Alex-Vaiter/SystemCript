@@ -44,6 +44,7 @@
             this.buttonSaveFile = new System.Windows.Forms.Button();
             this.textBoxCount = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.buttonCript = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -103,6 +104,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.buttonCript);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.textBoxCount);
             this.groupBox1.Controls.Add(this.textBoxOutput);
@@ -115,7 +117,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Gray;
             this.groupBox1.Location = new System.Drawing.Point(12, 93);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(269, 290);
+            this.groupBox1.Size = new System.Drawing.Size(269, 333);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Зашифровать";
@@ -131,7 +133,7 @@
             this.groupBox2.ForeColor = System.Drawing.Color.Gray;
             this.groupBox2.Location = new System.Drawing.Point(313, 93);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(269, 290);
+            this.groupBox2.Size = new System.Drawing.Size(269, 333);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Расшифровать";
@@ -182,7 +184,7 @@
             // 
             this.textBoxOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.textBoxOutput.ForeColor = System.Drawing.Color.Gray;
-            this.textBoxOutput.Location = new System.Drawing.Point(14, 251);
+            this.textBoxOutput.Location = new System.Drawing.Point(14, 291);
             this.textBoxOutput.Name = "textBoxOutput";
             this.textBoxOutput.Size = new System.Drawing.Size(171, 20);
             this.textBoxOutput.TabIndex = 14;
@@ -191,7 +193,7 @@
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(11, 225);
+            this.label4.Location = new System.Drawing.Point(11, 265);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 23);
             this.label4.TabIndex = 15;
@@ -201,7 +203,7 @@
             // 
             this.buttonSaveFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.buttonSaveFile.ForeColor = System.Drawing.Color.Gray;
-            this.buttonSaveFile.Location = new System.Drawing.Point(188, 236);
+            this.buttonSaveFile.Location = new System.Drawing.Point(188, 276);
             this.buttonSaveFile.Name = "buttonSaveFile";
             this.buttonSaveFile.Size = new System.Drawing.Size(75, 48);
             this.buttonSaveFile.TabIndex = 13;
@@ -229,12 +231,23 @@
             this.label5.TabIndex = 17;
             this.label5.Text = "Сдвиг символов (целое число):";
             // 
+            // buttonCript
+            // 
+            this.buttonCript.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.buttonCript.ForeColor = System.Drawing.Color.Gray;
+            this.buttonCript.Location = new System.Drawing.Point(80, 194);
+            this.buttonCript.Name = "buttonCript";
+            this.buttonCript.Size = new System.Drawing.Size(115, 23);
+            this.buttonCript.TabIndex = 18;
+            this.buttonCript.Text = "Зашифровать";
+            this.buttonCript.UseVisualStyleBackColor = true;
+            // 
             // FormCes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(594, 395);
+            this.ClientSize = new System.Drawing.Size(594, 457);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
@@ -271,5 +284,6 @@
         private System.Windows.Forms.Button buttonSaveFile;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBoxCount;
+        private System.Windows.Forms.Button buttonCript;
     }
 }
